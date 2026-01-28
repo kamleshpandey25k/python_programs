@@ -6,3 +6,4 @@ def printLowerTringle(nums):
         print("")
 nums=[[1,2,3],[88,55,3],[6,4,2]]
 printLowerTringle(nums)
+ 
