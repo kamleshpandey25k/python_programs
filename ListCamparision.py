@@ -15,6 +15,11 @@ print(l1)
 l1.reverse()
 print(l1)
 print(l1.index(30))
-#l1.sort()
-l3=sorted(l1)
+l1.sort(reverse=True)
+print(l1)
+l3=sorted(l1 , reverse=True)
 print(l3)
+s1="abcdef"
+s2="bcdef"
+print(s1 > s2)
+print(s1 < s2 )
