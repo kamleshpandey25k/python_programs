@@ -3,9 +3,9 @@ class Car:
       self.model=model
       self.brand=brand
   def __str__(self):
-    return f"{self.model} {self.brand}"
+    return f"{self.model}   {self.brand}"
 
 mycar=Car("Tata","Nexon")
-print(mycar.brand)
+print(mycar.brand )
 print(mycar.model)
 print(mycar)
